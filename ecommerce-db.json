@@ -1,0 +1,123 @@
+{
+    "brands":[
+        {"id":1,
+        "brandname":"sony"},
+        {"id":2,
+        "brandname":"samsung"},
+        {"id":3,
+        "brandname":"carrier"},
+        {"id":4,
+        "brandname":"dell"},
+        {"id":5,
+        "brandname":"hp"}
+
+    ]
+    ,
+    "categories":[
+        {"id":1,"categoryName":"Mobile"},
+        {"id":1,"categoryName":"Electronics"},
+        {"id":1,"categoryName":"Appliances"}
+        
+
+    ]
+    ,
+    "products":[
+        {"id":1,
+          "productName":"Apple iphone",
+          "price":8900,
+          "brandId":1,
+          "categoryId":1,
+          "rating":5
+        },
+          {"id":2,
+        "productName":"Apple iphone",
+        "price":8900,
+        "brandId":1,
+        "categoryId":1,
+        "rating":5
+        },
+        {"id":3,
+        "productName":"Sony Camera",
+        "price":4500,
+        "brandId":2,
+        "categoryId":2,
+        "rating":4
+        },
+        {"id":4,
+        "productName":"sony 5 home theatr",
+        "price":7411,
+        "brandId":2,
+        "categoryId":2,
+        "rating":4
+        },
+       {"id":5,
+       "productName":"carrier 2 ton air conditioner",
+        "price":4788,
+        "brandId":4,
+        "categoryId":3,
+        "rating":3
+           },
+      {"id":6,
+      "poductName":"dell Monitor",
+        "price":8524,
+        "brandId":5,
+        "categoryId":2,
+        "rating":4
+        },
+      {"id":7,
+      "productName":"sony mobile phone",
+      "price":7412,
+      "brandId":2,
+      "categoryId":1,
+      "rating":2
+        },
+        {"id":8,
+        "productName":"samsung mobile phone",
+        "price":7485,
+        "brandId":3,
+        "categoryId":1,
+        "rating":2
+    }          
+
+    ]
+    ,
+    "users":[
+        {
+            "id":1,
+            "email":"ecot@test.com",
+            "password":"scot123",
+            "fullname":"scott",
+            "dateOfBirth":"2000-12-15",
+            "gender":"male",
+            "country":"UK",
+            "reciveNewLetters":true
+        }
+    ]
+    ,
+    "Order":[
+        {
+            "id":1,
+            "useId":1,
+            "productId":1,
+            "quanity":2,
+            "isPaymentComplete":false
+        }
+        ,
+        {
+            "id":2,
+            "useId":1,
+            "productId":3,
+            "quanity":12,
+            "isPaymentComplete":false
+        }
+        ,
+        {
+            "id":3,
+            "useId":1,
+            "productId":4,
+            "quanity":1,
+            "isPaymentComplete":false
+        }
+    ]
+
+}
